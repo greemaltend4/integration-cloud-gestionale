@@ -5,9 +5,9 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Bienvenue dans l application d intégration cloud gestionnaire !');
+  res.send('Bienvenue dans l\' application d\'intégration cloud gestionnaire !');
 });
 
 app.listen(port, () => {
-  console.log(`Serveur en cours d'exécution sur http://localhost:${port}`);
+  console.log(`Serveur en cours d\'exécution sur http://localhost:${port}`);
 });
