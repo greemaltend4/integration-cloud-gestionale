@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Bienvenue dans l application d intégration cloud gestionnaire!');
+  res.send('Bienvenue dans l application d intégration cloud gestionnaire !');
 });
 
 app.listen(port, () => {
