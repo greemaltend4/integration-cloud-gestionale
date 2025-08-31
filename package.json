@@ -1,7 +1,7 @@
 {
   "name": "integration-cloud-gestionale",
   "version": "1.0.0",
-  "description": "Intégration des données cloud",
+  "description": "Integration of cloud data",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
